@@ -1,0 +1,101 @@
+
+/* animate */
+/*动画-start*/
+/* .animated {
+    animation-duration: 1.5s !important;
+    -webkit-animation-duration: 1.5s !important;
+    animation-fill-mode: both !important;
+    -webkit-animation-fill-mode: both !important;
+}
+.animated02 {
+    animation-duration: 1s !important;
+    -webkit-animation-duration: 1s !important;
+    animation-fill-mode: both !important;
+    -webkit-animation-fill-mode: both !important;
+} */
+ /*从上到下进入*/
+ .fadeInDown { 
+    animation-name: fadeInDown;
+    -webkit-animation: fadeInDown;
+    animation-duration: 0.5s;
+    position: relative;
+ }
+
+ /* 淡入-从上 */
+.a-fadeinT{-webkit-animation-name:fadeinT;-moz-animation-name:fadeinT;-ms-animation-name:fadeinT;animation-name:fadeinT;}
+
+
+/* 淡入-从上 */
+@-webkit-keyframes fadeinT{
+    0%{opacity:0;-webkit-transform:translateY(-100px);}
+    100%{opacity:1;-webkit-transform:translateY(0);}
+}
+@-moz-keyframes fadeinT{
+    0%{opacity:0;-moz-transform:translateY(-100px);}
+    100%{opacity:1;-moz-transform:translateY(0);}
+}
+@-ms-keyframes fadeinT{
+    0%{opacity:0;-ms-transform:translateY(-100px);}
+    100%{opacity:1;-ms-transform:translateY(0);}
+}
+@keyframes fadeinT{
+    0%{opacity:0;transform:translateY(-100px);}
+    100%{opacity:1;transform:translateY(0);}
+}
+
+
+
+
+
+
+/*从上到下*/
+@keyframes fadeInDown
+{
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0,-1000px); /* Safari */
+        transform: stranslate(0,-1000px); /* 标准语法 */
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translate(0,10px); /* Safari */
+        transform: stranslate(0,10px); /* 标准语法 */
+    }
+}
+ 
+@-webkit-keyframes fadeInDown /* Safari 与 Chrome */
+{
+    from {
+        opacity:0;
+        -webkit-transform: translate(0,-1000px); /* Safari */
+        transform: stranslate(0,-1000px); /* 标准语法 */
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translate(0,10px); /* Safari */
+        transform: stranslate(0,10px); /* 标准语法 */
+    }
+}
+
+
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-120px);
+	}	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+ 
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-120px);
+	}	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
