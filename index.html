@@ -1,0 +1,126 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-14 09:54:37
+ * @LastEditTime: 2021-07-14 14:37:00
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /msnm/index.html
+-->
+<html>
+<head>
+    <meta charset="utf8">
+    <title>home</title>
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div id="app">
+        <div class="topUI">
+            <!-- <img src="http://demos.admin868.com/demo186/skin/images/logo.png" width="200px" height="60px"/> -->
+            <!-- <p class="logo">SHIHUAN</p> -->
+            <img src="../res/logoText.png" width="100px" style="margin-left: 0px;"/>
+
+            <div class="topRight">
+ 
+                <div>
+                    <ul class="nav">
+                        <li><a class="lan selected" key="home" href="javascript:void(0)"></a></li>
+                        <li><a class="lan" href="../src/about.html" key="about"></a></li>
+                        <li><a href="../src/rd.html"  class="lan" key="RD"></a></li>
+                        <li><a href="../src/maketing.html" class="lan"  key="marketing"></a></li>
+                        <li><a href="../src/contactUs.html" class="lan" key="contactUs"></a></li>
+                        <li><a href="">
+                            <img src="../res/en.jpg" class="imglan"/>
+                        </a></li>
+                        <li><a href="">
+                            <img src="../res/ru.jpg" class="imglan"/>
+                        </a></li>
+                    </ul>
+                    <!-- <p style="color: #717171; font-size: 14px; padding-left: 30px; padding-right: 30px;">home</p> -->
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- <iframe src="src/home.html" style="width: 100%; height: 100%;">
+            </iframe> -->
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide">
+                    <img src="./res/bg00.jpg" width="100%" height="100%"/>
+                </div> -->
+                <div class="swiper-slide">
+                    <img src="./res/bg01.jpg" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./res/bg02.jpg" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./res/bg03.jpg" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./res/bg04.jpg" width="100%" height="100%"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./res/bg05.jpeg" width="100%" height="100%"/>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
+
+        <!-- <img src="./res/home.png" width="100%" height="500px"/> -->
+        <div style="display: flex; flex-direction: row; margin-bottom: 40px; margin-top: 10px;">
+            <div style="width: 50%; align-items: center; margin-top: 40px; margin-bottom: 100px; padding-left: 10px; padding-right: 10px;">
+                <p style="color: #000; font-size: 38px; text-align: center;">ABOUT+</p>
+                <p class="textstyle">  DALIAN BOOM INTERNATIONAL COMPANY LIMITED is High-Tech enterprise engaging in the production of high value-added Boron oxide，Ferro boron alloy，Boron carbide，Boron nitride，with integrated  R&D, production, advanced production lines for fine chemicals, we reached to top-quality products, valuable service, outstanding technology and modernized environmental protection , as qualified supplier of military industry, nuclear industry, refractory industry, we trust  “quality makes the brand, creat the future intentions”, develp,  improve and try our best.  We already exported to Russia, Europe, Japan etc.</p>
+            </div>
+            <div style="width: 50%; position:relative; top: 0; bottom: 0; margin: auto;">
+                <!-- <img src="res/about0.png" width="60%" style="left: 5%; top: 5%; position: absolute;"> -->
+                <!-- <img src="res/about1.png" width="80%" style="margin-left: 10%;"> -->
+                <!-- <img src="res/development0.png" width="60%" style="left: 5%; top: 50%; position: absolute;"> -->
+                <video width="90%" loop="loop" autoplay="autoplay" muted>
+                    <source src="res/home1.mp4" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+
+        <div class="bottomUI">
+            <p class="bottomFont">@ Dalian Boom International Co., Ltd</p>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="js/langString.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+        })        
+        </script>
+</body>
+</html>
