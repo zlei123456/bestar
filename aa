@@ -1,0 +1,260 @@
+<div class="main-layout-wrapper" id="smv_AreaMainWrapper" style="background-color: transparent; background-image: none;
+         background-repeat: no-repeat;background-position:0 0; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-size: auto;" bgscroll="none">
+        <div class="main-layout" id="tem-main-layout11" style="width: 100%;">
+            <div style="display: none">
+                
+            </div>
+            <div class="" id="smv_MainContent" rel="mainContentWrapper" style="width: 100%; min-height: 300px; position: relative; ">
+                
+                <div class="smvWrapper" style="min-width:1000px;  position: relative; background-color: transparent; background-image: none; background-repeat: no-repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:0 0;background-size:;" bgscroll="none"><div class="smvContainer" id="smv_Main" cpid="1251" style="min-height:400px;width:1000px;height:915px;  position: relative; "><div id="smv_con_1_14" ctype="text" class="esmartMargin smartAbs " cpid="1251" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 95px; width: 1000px; left: 0px; top: 35px;z-index:2;"><div class="yibuFrameContent con_1_14  text_Style1  " style="overflow:hidden;;"><div id="txt_con_1_14" style="height: 100%;">
+    <div class="editableContent" id="txtc_con_1_14" style="height: 100%; word-wrap:break-word;">
+        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:30px"><span style="font-family:Microsoft YaHei">客户案例</span></span></span></p>
+
+<p style="text-align:center"><span style="color:#bdc3c7"><span style="line-height:1.5"><span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif">Cases</span></span></span></span></p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_con_1_14').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div><div id="smv_con_4_41" ctype="listproduct" class="esmartMargin smartAbs " cpid="1251" cstyle="Style2" ccolor="Item0" areaid="Main" iscontainer="False" pvid="" tareaid="Main" re-direction="all" daxis="All" isdeletable="True" style="height: 771px; width: 946px; left: 26px; top: 144px;z-index:6;"><div class="yibuFrameContent con_4_41  listproduct_Style2  " style="overflow:hidden;;">    <div class="w-list xn-resize">
+        <ul class="w-list-ul" id="ulList_con_4_41" data-title-autolines="1" data-desc-autolines="1">
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5696.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34236.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -72.8852px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例五</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例五</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5697.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34237.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -64.4233px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例六</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例六</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5695.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34236.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -72.8852px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例四</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例四</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5683.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-26750.jpg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -63.8267px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例三</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例三</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5679.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34237.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -64.4233px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例二</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例二</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5668.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34234.jpg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -63px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例一</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例一</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <script>
+        var callback_con_4_41 = function() {
+            var sv = $("#smv_con_4_41");
+            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+            var titleItem = sv.find(".w-list-title");
+            var title_line_height = titleItem.css("line-height");
+            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+            sv.find("img").cutFill();
+        }
+        callback_con_4_41();
+    </script>
+</div></div></div><div class="smvContainer" id="smv_Main" cpid="1251" style="min-height:400px;width:1000px;height:915px;  position: relative; "><div id="smv_con_1_14" ctype="text" class="esmartMargin smartAbs " cpid="1251" cstyle="Style1" ccolor="Item0" areaid="" iscontainer="False" pvid="" tareaid="" re-direction="all" daxis="All" isdeletable="True" style="height: 95px; width: 1000px; left: 0px; top: 35px;z-index:2;"><div class="yibuFrameContent con_1_14  text_Style1  " style="overflow:hidden;;"><div id="txt_con_1_14" style="height: 100%;">
+    <div class="editableContent" id="txtc_con_1_14" style="height: 100%; word-wrap:break-word;">
+        <p style="text-align:center"><span style="line-height:1.5"><span style="font-size:30px"><span style="font-family:Microsoft YaHei">客户案例</span></span></span></p>
+
+<p style="text-align:center"><span style="color:#bdc3c7"><span style="line-height:1.5"><span style="font-size:24px"><span style="font-family:Arial,Helvetica,sans-serif">Cases</span></span></span></span></p>
+
+    </div>
+</div>
+
+<script>
+    var tables = $(' #smv_con_1_14').find('table')
+    for (var i = 0; i < tables.length; i++) {
+        var tab = tables[i]
+        var borderWidth = $(tab).attr('border')
+        if (borderWidth <= 0 || !borderWidth) {
+            console.log(tab)
+            $(tab).addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tbody").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("thead").children("tr").children("th").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("td").addClass('hidden-border')
+            $(tab).children("tfoot").children("tr").children("th").addClass('hidden-border')
+        }
+    }
+</script></div></div><div id="smv_con_4_41" ctype="listproduct" class="esmartMargin smartAbs " cpid="1251" cstyle="Style2" ccolor="Item0" areaid="Main" iscontainer="False" pvid="" tareaid="Main" re-direction="all" daxis="All" isdeletable="True" style="height: 771px; width: 946px; left: 26px; top: 144px;z-index:6;"><div class="yibuFrameContent con_4_41  listproduct_Style2  " style="overflow:hidden;;">    <div class="w-list xn-resize">
+        <ul class="w-list-ul" id="ulList_con_4_41" data-title-autolines="1" data-desc-autolines="1">
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5696.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34236.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -72.8852px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例五</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例五</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5697.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34237.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -64.4233px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例六</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例六</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5695.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34236.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -72.8852px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例四</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例四</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5683.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-26750.jpg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -63.8267px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例三</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例三</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5679.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34237.jpeg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -64.4233px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例二</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例二</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="w-list-item f-clearfix">
+                    <a href="/productinfo/-5668.html" target="_self" class="w-list-link">
+                        <div class="w-list-pic">
+                            <img src="//ntemimg.wezhan.cn/contents/sitefiles2002/10011687/images/-34234.jpg" class="w-listpic-in" autofill="ok" init="ok" style="width: auto; height: 268px; margin-left: -63px;">
+                        </div>
+                        <div class="w-list-bottom">
+                            <h5 class="w-list-title" style="height: 28px;">客户案例一</h5>
+                            <div class="w-list-desc " style="height: 20px;">客户案例一</div>
+                            <div class="w-list-price w-hide">¥&nbsp;0.00</div>
+                            <p class="w-list-btn w-hide">Buy now</p>
+                        </div>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <script>
+        var callback_con_4_41 = function() {
+            var sv = $("#smv_con_4_41");
+            var titlelines = parseInt(sv.find(".w-list-ul").attr("data-title-autolines"));
+            var desclines = parseInt(sv.find(".w-list-ul").attr("data-desc-autolines"));
+
+            var titleItem = sv.find(".w-list-title");
+            var title_line_height = titleItem.css("line-height");
+            titleItem.css("height", parseInt(title_line_height) * titlelines);
+
+            var desc_line_height = sv.find(".w-list-desc").css("line-height");
+            sv.find(".w-list-desc").css("height", parseInt(desc_line_height) * desclines);
+
+            sv.find("img").cutFill();
+        }
+        callback_con_4_41();
+    </script>
+</div></div></div></div><input type="hidden" name="__RequestVerificationToken" id="token__RequestVerificationToken" value="9SsF5x6wRUfxMOPFu2iW7FaWBNuf-fM0EIWBdZozgS10_Q8Wsp8rkVF9mj4UMx20OfReIwUv8h0_0XvRDePIGvcJyRGT1Dp6PqLopadZ0xY1">
+            </div>
+        </div>
+    </div>
